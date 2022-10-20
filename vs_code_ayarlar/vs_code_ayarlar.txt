@@ -1,0 +1,12 @@
+{
+"workbench.colorTheme": "Night Owl",
+"python.defaultInterpreterPath": "C:\\Program Files\\Python310\\python.exe",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.cursorBlinking": "expand",
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "editor.mouseWheelZoom": true,
+  "editor.wordWrap": "on"
+}

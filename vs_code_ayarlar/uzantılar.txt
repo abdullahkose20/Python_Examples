@@ -1,0 +1,10 @@
+C/C++
+GitHub Pull Requests and Issues
+GitLens — Git supercharged
+Material Icon Theme
+Night Owl
+PlatformIO IDE
+Prettier - Code formatter
+Python
+Turkish Language Pack for Visual Studio Code
+vscode-pdf

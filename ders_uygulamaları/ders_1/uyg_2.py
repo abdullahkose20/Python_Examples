@@ -9,7 +9,7 @@ Bakınız: Python if else Kullanımı
 Buna göre kullanıcının girdiği otoparkta kalınan saat süresine göre ödenecek miktarı bularak ekrana yazdırınız.
 
 """
-
+saat=int(input(" Kaldığınız Süreyi Girin:"))
 saat=int(input(" Kaldığınız Süreyi Girin:"))
  
 ucret=0
