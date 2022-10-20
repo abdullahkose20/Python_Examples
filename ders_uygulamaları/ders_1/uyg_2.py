@@ -10,7 +10,6 @@ Buna göre kullanıcının girdiği otoparkta kalınan saat süresine göre öde
 
 """
 saat=int(input(" Kaldığınız Süreyi Girin:"))
-saat=int(input(" Kaldığınız Süreyi Girin:"))
  
 ucret=0
  
