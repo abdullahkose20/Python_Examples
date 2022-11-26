@@ -165,13 +165,13 @@ print('Ortalama',(toplam/sayac))
 
 def toplama(sayi1,sayi2):
     return sayi1+sayi2
- 
+
 def cikarma(sayi1,sayi2):
     return sayi1-sayi2
- 
+
 def carpma(sayi1,sayi2):
     return sayi1*sayi2
- 
+    
 def bolme(sayi1,sayi2):
     return sayi1/sayi2
 while True:
@@ -200,10 +200,10 @@ while True:
 """
 
 def topla(s1, s2):
-  if(s1 > s2):
-    return s1
-  else:
-    return s2
+    if(s1 > s2):
+        return s1
+    else:
+        return s2
 
 sayi1 = int(input('sayı 1:'))
 sayi2 = int(input('sayı 2:'))

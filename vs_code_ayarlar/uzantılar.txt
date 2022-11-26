@@ -8,3 +8,6 @@ Prettier - Code formatter
 Python
 Turkish Language Pack for Visual Studio Code
 vscode-pdf
+intelliCode
+indent-rainbow
+Code Runner
