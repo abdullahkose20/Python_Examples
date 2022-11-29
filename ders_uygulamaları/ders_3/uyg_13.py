@@ -23,8 +23,8 @@ def toplama():
     sayı = a+b
     return sayı
 
-
-print(toplama())
+deger=toplama()
+print(deger)
 
 
 # parametre alan ve değer döndüren
@@ -34,14 +34,15 @@ def toplama(a, b):
     sayı = a+b
     return sayı
 
-
-print(toplama(3, 5))
+sonuc=toplama(3,5)
+print(sonuc)
 
 
 
 
 """
 örnek-1
+sayının karesini bulma
 """
 
 def kare_bul():
@@ -53,6 +54,7 @@ kare_bul()
 
 """
 örnek-2
+kayıt oluşturma
 """
 def kayıt_oluştur(isim, soyisim, işsis, şehir):
     print("-"*30)
@@ -70,6 +72,7 @@ kayıt_oluştur("Debian", "Ankara", "Öz", "Ahmet")
 
 """
 örnek-3
+pozitif negatif sayı bulma
 """
 
 def fonk(n):
@@ -84,6 +87,7 @@ print(f)
 
 """
 örnek-4
+yazdırlan metin adedini bulan program
 """
 def yazdir(metin,kacKere):
        for i in range (1, (kacKere+1)):
@@ -95,6 +99,7 @@ yazdir('Merhaba', 5)
 
 """
 örnek-5
+çoklu veri girişi yapan program
 """
 
 def öğrenci (ad,soyad,no,sınıf):
