@@ -10,7 +10,7 @@ print("Program devam ediyor")
 
 
 
-Örnek1: Break deyiminin kullanımı görmek açısından 1'den 100' e kadar sayıları ekrana yazdırırken, her sayıyı kontrol edelim ve eğer sayı 35 ise döngüden çıkalım.
+"""Örnek1: Break deyiminin kullanımı görmek açısından 1'den 100' e kadar sayıları ekrana yazdırırken, her sayıyı kontrol edelim ve eğer sayı 35 ise döngüden çıkalım."""
 
  
 
@@ -28,14 +28,13 @@ Normal şartlarda bu döngü 100'e kadar devam edecekti.
 Ancak döngü içinde yer alan if ifadesiyle i 35 olduğunda döngüden çıkıldı.
 Break komutu döngüden çıkmak için kullanılır.
 """
-Burada while ifadesinin yanına True (doğru) yazarsak, sonsuz bir döngüye girmiş olur. Ve break ifadesiyle yine istediğimiz koşul sağlandığı anda döngüden çıkabiliriz.
-
+"""Burada while ifadesinin yanına True (doğru) yazarsak, sonsuz bir döngüye girmiş olur.
+Ve break ifadesiyle yine istediğimiz koşul sağlandığı anda döngüden çıkabiliriz.
+"""
 
 
 
 # Örnek2: Şimdi kullanıcıya bir sayı girmesini isteyelim ve break komutu kullanarak 1den kullanıcının girdiği sayıya kadar olan sayıları ekrana yazdıralım.
-
- 
 
 #while döngüsünden break ile çıkma
 
@@ -141,7 +140,8 @@ while i < bitis:
     i += 1
     if (i % 2 == 1):
         print(i)
-3- 1-100 arasındaki sayıları azalan şekilde yazdırınız.
+
+"""3- 1-100 arasındaki sayıları azalan şekilde yazdırınız."""
 
 i = 100
 while i > 0:
@@ -205,5 +205,5 @@ print("3 sayısı girildi ve döngü sona erdi")
  
 i=60 # başlangıç
 while i >= 30: #karşılaştırma
-  print(i)
-  i=i-2  #azaltma
+    print(i)
+    i=i-2  #azaltma

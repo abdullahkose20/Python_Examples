@@ -31,7 +31,52 @@ Bu işlemi kullanmak için iki python kodu olması gerekir.
 - İkinci Grup:
     İnternetten başka kişlerin yazdığı modülleri indirip kullanabiliriz.
     !!! Bu yöntemi kullanmak için gerekli olan modül belirlendikten sonra terminal ekranına (diğer adı komut satırı veya cmd ekranına) şu komutla direk olarak indirip kullanabiliriz. Komut adı ise şöyledir "pip install modül_adı" olarak indirip kullanabiliriz
+
+--------------------------------------------------------------------------------------------------------------------------------------
+!!!! MODÜLLERİ İSİM OLARAK KULLANMA
+
+1- import modül_adı
+
+    modül_adı.foksiyon_adı()
+
+
+2- import modül_adı as kısa_isim
+
+    kısa_isim.fonksiyon_adı()
+
+3- from modül_adı import kullanılacak_fonksiyon (***burda sadece o fonksiyon kullanılabilir modül adını yazmadan***)
+
+    kullanılacak_fonksiyon()
+
+4- from modül_adı import kullanılacak_fonksiyon1 , kullanılacak_fonksiyon1 (***burda sadece o fonksiyonlar kullanılabilir modül adını yazmadan**)
+
+    kullanılacak_fonksiyon1()
+    kullanılacak_fonksiyon2()
+
+
+5- from modül_adı import * (yıldız  işareti koyarsak tüm fonksiyonları kullanabiliriz modül adını yazmadan)
+
+    kullanılacak_fonksiyon1()
+    kullanılacak_fonksiyon2()
+    kullanılacak_fonksiyon4()
+    kullanılacak_fonksiyon5()
+
+
 """
+
+
+
+
+
+
+
+
+"""
+****************************************
+        KENDİ YAZDIĞIMIZ MODÜLLER
+****************************************
+"""
+
 
 
 """
@@ -47,8 +92,6 @@ import nct
 nct.ornek()
 
 """
-
-
 
 
 """
@@ -87,6 +130,7 @@ param.toplam(15,5)
 param.fark(28,3)
 
 """
+
 
 
 """
@@ -155,11 +199,23 @@ else:
 """
 
 
-"""
 
+
+
+
+"""
 ****************************************
             HAZIR MODÜLLER
 ****************************************
+
+import time
+import random
+import math 
+import os
+import webbrowser
+import sys
+import turtle
+
 """
 # -----------------TİME--------------------------------------------
 
@@ -202,7 +258,7 @@ print(random.randint(0,50))
 """
 
 """
-# örnek 2 //listeden rastgele sayı üretme
+# örnek 2 //listeden rastgele seçme
 
 import random
 
@@ -263,5 +319,121 @@ import math
 print(math.pow(5,2))
 
 print(math.sqrt(81))
+
+"""
+
+
+# -----------------OS--------------------------------------------
+"""
+# örnek 1 // işletim sistemini öğrenme
+
+import os
+
+print(os.name)
+
+** Windows için nt yazar
+** Linux-Ubuntu için posix yazar
+"""
+
+"""
+# örnek 2 //bulunduğumuz dizini gösterme
+
+import os
+
+print(os.getcwd())
+
+"""
+
+"""
+# örnek 3 //başka bir dizine geçmek için
+
+import os
+
+os.chdir('C:/Users/Abdullah Köse/Desktop')
+
+print(os.getcwd())
+
+"""
+
+# -----------------WEBBROWSER--------------------------------------------
+"""
+# örnek 1 // web sayfası açma
+
+import webbrowser 
+
+webbrowser.open("https://tr-tr.facebook.com/")
+
+"""
+
+"""
+# örnek 2 // sırayla farklı web sitelerini açma
+
+import webbrowser
+import time
+
+
+webbrowser.open("https://twitter.com/?lang=tr")
+time.sleep(4)
+webbrowser.open("https://elearning.wsldp.com/python3/python-open-web-browser/")
+time.sleep(4)
+"""
+
+"""
+# örnek 3 // kullanıcıdan alınan ismin sitesini açma (harflari küçük harf yapma)
+
+import webbrowser
+
+url = input("Adres giriniz:")
+
+yeni_url = url.lower()
+
+print(yeni_url)
+if yeni_url == "facebook":
+    webbrowser.open("https://tr-tr.facebook.com/")
+
+if yeni_url == "google":
+    webbrowser.open("https://www.google.com/")
+
+if yeni_url == "youtube":
+    webbrowser.open("https://www.youtube.com/")
+
+if yeni_url == "instagram":
+    webbrowser.open("https://www.instagram.com/?hl=tr")
+
+"""
+
+
+
+# -----------------SYS--------------------------------------------
+"""
+# örnek 1 // Kurulmuş olan python versiyon öğrenme
+
+import sys
+
+print(sys.version)
+
+"""
+"""
+# örnek 2 // Kurulmuş olan python hangi işletim sistemine kurulduğunu öğrenme
+
+import sys 
+
+print(sys.platform)
+
+"""
+"""
+# örnek 3 // Yazmış olduğumuz kodu bitirme(sonlandırma) işlemi
+
+import sys
+
+sayı = input('Bir sayı girin: ')
+
+if int(sayı) < 0:
+    print('çıkılıyor...')
+    sys.exit()
+    print('abdullah')
+
+else:
+    print(sayı)
 
 """
